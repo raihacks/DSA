@@ -54,3 +54,17 @@ import java.util.Arrays;
 //         return -1;
 //     }
 // }
+
+//array
+// public class Main{
+//     public static void main(String[] args){
+//         int[] myArray = {7, 12, 9, 4, 11};
+//         int minVal = myArray[0];
+//         for(int i=1; i < myArray.length; i++ ){
+//             if(myArray[i]<minVal){
+//                 minVal = myArray[i];
+//             }
+//         }
+//         System.out.println("Lowest value: " + minVal);
+//     }
+// }
