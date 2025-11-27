@@ -1,3 +1,4 @@
+import java.util.Arrays;
 //O(1)
 // public class Main{
 //     public static void main(String[] args){
@@ -11,5 +12,29 @@
 
 //O(log n)
 public class Main{
+    public static void main(String[] args){
+        int[] arr = {12, 34, 56, 76, 89, 23, 46, 74};
+        int traget = 76;
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
+        System.out.println(binarySearch( arr, traget));
 
+    }
+    public static int binarySearch(int[] arr, int traget){
+        int left = 0;
+        int right = arr.length -1;
+        while (left <= right){
+            int mid =(left + right) / 2;
+            if(arr[mid]==traget){
+                return mid;
+            }
+            else if(arr[mid] < traget){
+                left = mid + 1;
+            }
+            else{
+                right = mid - 1;
+            }
+        }
+        return -1;
+    }
 }
