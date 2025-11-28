@@ -170,3 +170,13 @@ import java.util.Arrays;
 //         System.out.println(secMax);
 //     }
 // }
+
+// reverse an array
+// public class Main{
+//     public static void main(String[] args){
+//         int[] nums = {12, 35, 1, 10, 34, 1};
+//         for( int i = nums.length - 1; i >= 0; i--){
+//             System.out.println(nums[i]);
+//         }
+//     }
+// }
