@@ -180,3 +180,21 @@ import java.util.Arrays;
 //         }
 //     }
 // }
+
+// count even and odd numbers
+// public class Main{
+//     public static void main(String[] args){
+//         int[] num = {1, 2, 4, 7};
+//         int even=0;
+//         int odd=0;
+//         for(int i = 0; i <num.length; i++){
+//             if(num[i] % 2 == 0){
+//                 even++;
+//             }
+//             else{
+//                 odd++;
+//             }
+//         }
+//         System.out.println("even: "+even+ " odd: "+odd);
+//     }
+// }
