@@ -139,15 +139,34 @@ import java.util.Arrays;
 // }
 
 //smallest element
-public class Main{
-    public static void main(String[] agrs){
-        int[] nums = {1234,246,34,67,98,45,49,53,18};
-        int min = nums[0];
-        for(int i = 1; i < nums.length; i++){
-            if(nums[i] < min){
-                min = nums[i];
-            }
-        }
-        System.out.println(min);
-    }
-}
+// public class Main{
+//     public static void main(String[] agrs){
+//         int[] nums = {1234,246,34,67,98,45,49,53,18};
+//         int min = nums[0];
+//         for(int i = 1; i < nums.length; i++){
+//             if(nums[i] < min){
+//                 min = nums[i];
+//             }
+//         }
+//         System.out.println(min);
+//     }
+// }
+
+//2nd largest
+// public class Main{
+//     public static void main(String[] agrs){
+//         int[] nums = {12, 35, 1, 10, 34, 1};
+//         int max = nums[0];
+//         int secMax = nums[0];
+//         for (int i = 1; i < nums.length; i++){
+//             if(nums[i] > max){
+//                 secMax = max;
+//                 max = nums[i];
+//             }
+//             else if(nums[i] < max && nums[i] > secMax){
+//                     secMax = nums[i];
+//                 }
+//         }
+//         System.out.println(secMax);
+//     }
+// }
