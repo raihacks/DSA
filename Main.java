@@ -110,16 +110,31 @@ import java.util.Arrays;
 //     }
 // }
 
-public class Main{
-    public static void main(String[] args){
-        int[] nums = {2,7,11,15};
-        int target = 9;
-        for (int i = 0; i < nums.length; i++){
-            for (int j = i+1 ; j < nums.length; j++){
-                if(target == nums[i] + nums[j]){
-                    System.out.println("the indecis are " +i+ " and "+j);
-                }
-            }    
-        }
-    }
-}
+// public class Main{
+//     public static void main(String[] args){
+//         int[] nums = {2,7,11,15};
+//         int target = 18;
+//         for (int i = 0; i < nums.length; i++){
+//             for (int j = i+1 ; j < nums.length; j++){
+//                 if(target == nums[i] + nums[j]){
+//                     System.out.println("the indecis are " +i+ " and "+j);
+//                 }
+//             }    
+//         }
+//     }
+// }
+
+//largest element in a aarya
+// public class Main{
+//     public static void main(String[] agrs){
+//         int[] nums ={12,56,78,34,68,99};
+//         int max = nums[0] ;
+//         for(int i=1; i < nums.length; i++){
+//             if(nums[i] > max){
+//                 max = nums[i];
+//             }
+//         }
+//         System.out.println(max);
+//     }
+// }
+
