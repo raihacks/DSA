@@ -138,3 +138,16 @@ import java.util.Arrays;
 //     }
 // }
 
+//smallest element
+public class Main{
+    public static void main(String[] agrs){
+        int[] nums = {1234,246,34,67,98,45,49,53,18};
+        int min = nums[0];
+        for(int i = 1; i < nums.length; i++){
+            if(nums[i] < min){
+                min = nums[i];
+            }
+        }
+        System.out.println(min);
+    }
+}
