@@ -198,3 +198,32 @@ import java.util.Arrays;
 //         System.out.println("even: "+even+ " odd: "+odd);
 //     }
 // }
+
+// public class Main{
+//     public static void main(String[] args){
+//         int[] num={1, 2, 3};
+//         int sum = 0;
+//         for(int i = 0; i <num.length; i++){
+//             sum += num[i];
+//             //System.out.println(sum);
+//         }
+//         System.out.println(sum);
+//     }
+// }
+
+// public class Main {
+//     public static boolean isSorted(int[] num) {
+//         for (int i = 1; i < num.length; i++) {
+//             if (num[i] < num[i - 1]) {
+//                 return false;
+//             }
+//         }
+//         return true;
+//     }
+//     public static void main(String[] args) {
+//         int[] b = {1, 2, 3, 5};
+//         int[] a = {1, 3, 2};
+//         System.out.println(isSorted(a));
+//         System.out.println(isSorted(b)); 
+//     }
+// }
