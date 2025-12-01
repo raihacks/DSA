@@ -227,3 +227,9 @@ import java.util.Arrays;
 //         System.out.println(isSorted(b)); 
 //     }
 // }
+
+public class Main{
+    public static void main(String[] args){
+        
+    }
+}
