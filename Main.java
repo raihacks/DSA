@@ -1,4 +1,4 @@
-// import java.util.Arrays;
+import java.util.Arrays;
 //   O(1)
 //    public class Main{
 //        public static void main(String[] args){
@@ -89,6 +89,7 @@
 //            }
 //        }
 //    }
+
 //    public class Main {
 //        public static void main(String[] args) {
 //            int[] myArray = {64, 34, 25, 12, 22, 11, 90, 5};
@@ -249,3 +250,28 @@
 //        }
 //    }
 
+// public class Solution {
+//     public int removeDuplicates(int[] nums) {
+//         if (nums.length == 0) {
+//             return 0;
+//         }
+//         int uniquePosition = 1;
+//         for (int i = 1; i < nums.length; i++) {
+//             if (nums[i] != nums[i - 1]) {
+//                 nums[uniquePosition] = nums[i];
+//                 uniquePosition++;
+//             }
+//         }
+//         return uniquePosition;
+//     }
+//     public static void main(String[] args) {
+//         Solution solution = new Solution();
+//         int[] nums = {1, 1, 2, 2, 3, 3, 4};
+//         int length = solution.removeDuplicates(nums);
+//         System.out.println("Number of unique elements: " + length);
+//         System.out.print("Updated Array: ");
+//         for (int i = 0; i < length; i++) {
+//             System.out.print(nums[i] + " ");
+//         }
+//     }
+// }
